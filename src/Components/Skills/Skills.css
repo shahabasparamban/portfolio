@@ -1,18 +1,17 @@
 #skills{
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     max-width: 65rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-/* margin-top: 2rem; */
- /* min-height: calc(100vh - 3rem); */
-  margin: 0 auto;
-  /* margin-top: -4rem;   lifts the section slightly */
-    /* padding-bottom: 2rem; optional spacing at bottom */
-  margin-top: 3rem; 
+    min-height: 100vh;
+margin: 0 auto;
+  
+  /* box-sizing: border-box; */
+  
 }
 .skillTittle{
 font-size: 3rem;

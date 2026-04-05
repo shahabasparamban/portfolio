@@ -10,12 +10,20 @@ const Portfolio = () => {
         <h2 className="worksTittle">My Portfolio</h2>
         <span className="worksDesc">I take pride in attention to the smallest details and making sure that my work is perfect.</span>
         <div className="worksImgs">
-            <img src={mywork1} alt="" className="worksImg" />
-                    <img src={mywork2} alt="" className="worksImg" />
-              <img src={mywork3} alt="" className="worksImg" />
-               
+             <a href="https://shahabasparamban.github.io/stopwatch/" target="_blank" rel="noopener noreferrer">
+          <img src={mywork1} alt="Project 1" className="worksImg" />
+        </a>
+
+        <a href="https://shahabasparamban.github.io/Simple-Calculator/" target="_blank" rel="noopener noreferrer">
+          <img src={mywork2} alt="Project 2" className="worksImg" />
+        </a>
+
+        <a href="https://shahabasparamban.github.io/signup-login-form/" target="_blank" rel="noopener noreferrer">
+          <img src={mywork3} alt="Project 3" className="worksImg" />
+        </a>
+
         </div>
-        <button className="workBtn">See More</button>
+        
     </section>
   )
 }

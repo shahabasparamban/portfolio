@@ -1,19 +1,21 @@
 #contactPage {
-    /* min-height: calc(100vh - 3rem); */
+    
     width: 100vw;
-    max-width: 60rem;
-    margin: 0 auto;
+    
+   
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
+    min-height: calc(100vh-3rem);
+    padding-top : 10rem;
+ box-sizing: border-box;
 }
 .contactPageTittle{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
+    margin: 4rem;
 
     
 }
@@ -60,13 +62,14 @@
     display: flex;
     flex-wrap: wrap;
 align-items: center;
-    justify-content: center; 
+    justify-content: center;
+   margin-bottom: -1rem;
 }
 .link{
     object-fit: cover;
     height: 2rem;
     width: 2rem;
-    margin: 0 1rem;
+   margin:0.5rem 0.5rem; 
     
     text-align: center; 
 }

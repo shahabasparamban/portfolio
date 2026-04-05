@@ -1,15 +1,16 @@
 #intro{
-height: calc(100vh - 3rem);
-width: 100vw;
+min-height: 100vh;
+width: 100%;
 max-width: 75rem;
 padding: 2rem ;
 position: relative;
  box-sizing: border-box;
+ padding-top: 6rem;
 }
 
 .introContent{
     color: white;
-    height: 50vh;
+    /* height: 50vh; */
    width: 80vw;
    font-size: 3rem;
    font-weight: 800;
@@ -17,7 +18,7 @@ position: relative;
    flex-direction: column;
    justify-content: center;
    font-family: 'Lato';
-   margin-top: 5rem; 
+   /* margin-top: 5rem;  */
    
    
   
@@ -43,7 +44,7 @@ color: yellow;
 
 .introPara{
     font-size: medium;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 .btn{
