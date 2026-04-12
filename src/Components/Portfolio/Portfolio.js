@@ -2,7 +2,8 @@ import React from 'react';
 import './Portfolio.css';
 import mywork1 from '../../Assets/mywork1.png';
 import mywork2 from '../../Assets/mywork2.png';
-import mywork3 from '../../Assets/mywork3.png';
+
+import port from '../../Assets/port.png';
 
 const Portfolio = () => {
   return (
@@ -19,7 +20,7 @@ const Portfolio = () => {
         </a>
 
         <a href="https://shahabasparamban.github.io/signup-login-form/" target="_blank" rel="noopener noreferrer">
-          <img src={mywork3} alt="Project 3" className="worksImg" />
+          <img src={port} alt="Project 3" className="worksImg" />
         </a>
 
         </div>
